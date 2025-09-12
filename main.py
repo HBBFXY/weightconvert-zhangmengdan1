@@ -1,4 +1,4 @@
-#weight = input("请输入带有符号的重量")
+#weight = input()
 if weight[-2:] in ["kg"]:
     poung = (eval(weight[0:-2])) * 2.2046
     print("对应的重量为：{:.3f}磅".format(poung))
